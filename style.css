@@ -11,17 +11,24 @@ h2{
 }
 
 body {
-    background-color: darkkhaki;
+    background-image: url(backimage.jpg);
+
+    background-size: 1366px 768px;
 }
 
-.sınıf{
+.sınıf{ 
     font-style: italic;
 }
 
+
 .deneme{
     background-color: aliceblue;
+} 
+
+.mesaj{
+    font-size: 15px !important;
 }
 
-.link{
-    font-size: 40px;
+.resim{
+    margin-left: 90px;
 }
