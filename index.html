@@ -28,13 +28,14 @@
     <li>su</li>
     <li>tuz</li>
 </ul>
-
+<div>
 <br><h3>Avrupa Birliğine Üye Ülkeler:</h3>
 <ol>
     <li>İspanya</li>
     <li>İngiltere</li>
     <li>Fransa</li>
 </ol>
+</div>
 
 <table class = "deneme" border = 3 align = center width = 500 cellpadding = 5 cellspacing = 5>
     <tr>
@@ -67,14 +68,64 @@
 </table>
 
 
-
-<!--<p><a href = "mailto:mert7can4114@gmail.com" target = _blank>Eksikler için mail at</a></p>-->
-<p class="mesaj">Aşağıdaki Mektuptan Mail Atabilirsiniz</p>
-<a class="resim" href = "mailto:mert7can4114@gmail.com" target="_blank"><img src="letter.png" width= 50/></a>
+<!--<p><a href = "mailto:mert7can4114@gmail.com" target = _blank>Eksikler için mail at</a></p>
+<p class="mesaj">Aşağıdaki Mektuptan Mail Atabilirsiniz</p>-->
 
 
 
-<p align= center><a href = #dönüs>Yukarıya Geri Dön</a></p>
+
+
+
+<form>
+   Adınızı Giriniz: <input type="text"  name="kullanici_adiniz" size="18" value="XXXXXX" maxlength="20" />
+</br>
+   Şifre: <input type="password"  name="sifre" size="12" value="*******" minlength="8"" />
+</br>
+<hr color="black">
+   Doğum Tarihinizi Giriniz: <input type="text"  name="dogum_tarih" size="15" value="XX-XX-XXXX" maxlength="10" />
+</br>
+<hr color="black">
+Cinsiyetiniz Seçin: </br>
+   <input type="radio" name="cinsiyet" value="erk" /> Erkek
+   <input type="radio" name="cinsiyet" value="kad" /> Kadın
+</br>
+<hr color="black">
+Hangi Sporları Seviyor Veya İlgileniyorsuz?
+</br>
+<ul>
+    <li><input type="checkbox" name="sporlar" value="spor" />Futbol</li>
+    <li><input type="checkbox" name="sporlar" value="spor" />Basketbol</li>
+    <li><input type="checkbox" name="sporlar" value="spor" />Voleybol</li>
+    <li><input type="checkbox" name="sporlar" value="spor" />Hentbol</li>
+    <li><input type="checkbox" name="sporlar" value="spor" />Yüzme</li>
+</ul>
+</br>
+<hr color="black">
+Lütfen Nüfusa Kayıtlı Olduğunuz Ülkeyi Seçiniz:
+<select name="ulke">
+    <option value="TR">Türkiye</option>
+    <option value="HIN">Hindistan</option>
+    <option value="ING">İngiltere</option>
+    <option value="LIT">Litvanya</option>
+    <option value="IR">İran</option>
+</select>
+<hr color="black">
+
+<p> CV'nizi Yükleyin  <input type="file" name="dos1"></p>
+<p> Sağlık Raporunuzu Yükleyin  <input type="file" name="dos2"></p>
+<hr color="black">
+
+Kendini Tanıt:
+</br>
+<textarea name="yorum" cols="40" rows="10">Lütfen Boş Bırakmayınız..</textarea>
+</br>
+<button type="submit">Gönder</button>
+</form>
+
+
+
+<a class="resim" href = "mailto:mert7can4114@gmail.com" target="_blank"><img src="letter.png" width= 50 /></a>
+<p align= center><a href = #dönüs>Yukarıya Geri Dön</a>
 </body>
 
 
