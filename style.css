@@ -7,7 +7,11 @@ h1 {
 
 
 h2{
-    color:aqua;
+    background-color:antiquewhite;
+    border-color : cadetblue;
+    border-style: solid;
+    border-width: 3px;
+    border-color:aqua;
 }
 
 body {
@@ -27,8 +31,20 @@ body {
 
 .mesaj{
     font-size: 15px !important;
+    padding-top: 10px !important;
 }
 
 .resim{
-    margin-left: 90px;
+    position: absolute;
+    left:95%;
+}
+
+ul{
+    list-style-type: unset ;
+}
+
+
+div{
+    position: absolute;
+    left:70%;
 }
